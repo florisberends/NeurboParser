@@ -67,7 +67,7 @@ cd ..
 echo ""
 echo "Installing Eigen..."
 rm -rf eigen
-hg clone https://gitlab.com/libeigen/eigen.git -r 346ecdb
+hg clone https://gitlab.com/libeigen/eigen.git -r e3e2cf9d
 cd eigen
 mkdir -p build
 cd build
